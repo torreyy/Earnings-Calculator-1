@@ -14,7 +14,7 @@ print("This is your weekly earnings: ", + daily_earnings * 5)
 
 monthly_earnings = daily_earnings *5 /12
 
-print("This is your monthly earnings: ", + weekly_earnings * 52 /12 )
+print("This is your monthly earnings: ", + weekly_earnings * 52 //12 )
 yearly_earnings = monthly_earnings * 12
 
 print("This is your yearly earnings: ", + weekly_earnings * 52)
